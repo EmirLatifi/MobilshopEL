@@ -1,0 +1,579 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+.home.container {
+    width:1200px;
+    margin: 0 auto;
+    
+}
+ section.home {
+     width: 100%;
+     height: 100vh;
+    background-image: url(../MobilshopEL/Foto/background4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    width:100%;
+    height:250px;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width:350px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+ }
+ .logo img {
+     width:100%;
+     display: block;
+ }
+ nav {
+     width:850px;
+     height: 240px;
+     display: flex;
+     align-items: center;
+ }
+ nav ul {
+     width:80%;
+     list-style: none;
+     display: flex;
+     justify-content:center;
+ }
+ nav li {
+     width: 25%; 
+ }
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+.ballina {
+    width: 100%;
+    display: grid;
+    grid-template: repeat(1,1fr) / repeat(2, 1fr);
+
+}
+.image {
+    display:flex;
+    justify-content: flex-end;
+}
+.image img {
+    height:350px;
+    
+}
+.sherbimet ul li {
+    margin-left: 75px;
+    color: #fff;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+    grid-template-rows: repeat(1,70.8px);
+   
+}
+.gallery {
+    width:95%;
+    display:grid;
+    grid-template: repeat(1,1fr) / repeat(4, 1fr);
+    gap:40px;
+    margin-top: 70px;
+    margin-left:60px;
+}
+.gallery img { 
+    border-radius:7px;
+    width:250px;
+    height:200px;
+}
+
+
+
+/*Shop*/
+
+/*th*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,500;1,800&family=Alfa+Slab+One&family=Crimson+Pro:wght@200&family=Forum&family=Frijole&family=Jacques+Francois+Shadow&family=Lateef&family=Luxurious+Roman&family=Playfair+Display+SC&family=Radley&family=Rokkitt:wght@300&family=Shrikhand&family=Vast+Shadow&display=swap');
+
+/*td*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,500;1,800&family=Alfa+Slab+One&family=Crimson+Pro:wght@200&family=Forum&family=Frijole&family=Jacques+Francois+Shadow&family=Karma&family=Lateef&family=Luxurious+Roman&family=Playfair+Display+SC&family=Radley&family=Rokkitt:wght@300&family=Shrikhand&family=Vast+Shadow&display=swap');
+
+
+.shop {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../MobilshopEL/Foto/background2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container {
+    width:1200px;
+    height: 100vh;
+    margin:0 auto;
+}
+h2 {
+    width:1200px;
+    height: 50px;
+    font-size:40px;
+    text-align: center;
+    color: black;
+    padding-bottom: 15px;
+    
+}
+.telefonat {
+    width: 100%;
+    height: 90%;
+    display: grid;
+    grid-template:repeat(2,1fr) / repeat(3,1fr);
+    gap: 10px;
+    
+}
+.telefoni1,.telefoni2,.telefoni3,.telefoni4,.telefoni5,.telefoni6 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows:repeat(1,300px) / repeat(1,108px); 
+    border: solid black 2px;
+    
+}
+.foto {
+    width:100%;
+    height: 100%;
+}
+.foto img {
+    width: 200px;
+    height: 258px;
+    margin-left:20px;
+}
+.foto p {
+    font-size:20px;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Playfair Display SC', serif;
+  
+}
+.detajet ul {
+    display: flex;
+    flex-direction: column;
+    padding-left:15px;
+    padding-right:10px;
+    margin-top:32px;
+    
+}
+.detajet ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content:flex-end;
+    list-style-type: none;
+    padding-top: 20px;
+    font-size:15px;
+}
+.detajet ul li img {
+    width: 25px;
+    height:25px;
+}
+.cmimi table {
+    width: 90%;
+    height: 90%;
+    margin-left:20px;
+}
+table tr,td,th {
+    font-size: 17px;
+    text-align: center;
+    color:black;
+}
+table #one {
+    padding-right: 5px;
+    letter-spacing: 3px;
+}
+table #two {
+    padding-right: 5px;
+    letter-spacing: 3px;
+}
+table th {
+    font-family: 'Playfair Display SC', serif;
+}
+table td {
+    font-size: 17px;
+    letter-spacing: 3px;
+    font-family: 'Rokkitt', serif;
+}
+table td:hover {
+    background-color:black;
+    color:white;
+}
+.butoni {
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+button {
+    width:100px;
+    height: 35px;
+    font-size: 17px;
+    border-radius:5px;
+    background-color: black;
+    color:white;
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing: 3px;
+}
+button:hover {
+    background-color:white;
+    color:black;
+}
+
+/*Contact*/
+
+.Contact {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../MobilshopEL/Foto/backgroundcolor6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container3 {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    }
+.rrethnesh {
+    width: 1200px;
+    display: flex;
+}
+.titulli{
+    margin-right: 40px;
+}
+.titulli h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0;
+    color: white;
+}
+.titulli #teksti {
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+.info {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+   
+}
+.info .rrjetet {
+    display: grid;
+    grid-template:repeat(2,1fr) / repeat(3,1fr);
+    margin-top: 70px;
+}
+.info img {
+    width: 35px;
+    height: 35px;
+}
+.info p {
+    padding-bottom: 10px;
+}
+.info a{ 
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    color: white;
+    letter-spacing: 2px;
+    padding-right: 10px;
+    
+}
+.kontakti {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction:column;
+}
+ input {
+     width:444px;
+     height: 35px;
+     font-size: 26px;
+ }
+ label {
+     padding-bottom:15px;
+     padding-top: 15px;
+     font-size:26px;
+     color: white;
+ }
+ .iframe {
+    height: 100%;
+     margin-top: 50px;
+ }
+ iframe {
+     width: 100%;
+     height: 100%;
+     margin: top 50px;
+ }
+
+/*Mediaquery*/
+
+
+ @media screen and (max-width:912px) {
+     .home {
+         width: 100%;
+         height: 100vh;
+     }
+    .container {
+        width: 100%;
+    }
+   header {
+       justify-content: space-around;
+       height: 150px;
+   }
+   .logo {
+       width:50%;
+       justify-content: center;
+   }
+   .logo img {
+       width:250px;
+
+   }
+   nav {
+       width: 500px;
+       height: 150px;
+       justify-content: center;
+   }
+   .sherbimet {
+       padding-left: 20px;
+   }
+   .sherbimet ul li {
+       font-size: 20px;
+       letter-spacing: 1px;
+   }
+   .image {
+       justify-content: flex-start;
+       margin-top: 70px;
+   }
+   .image img {
+       width: 350px;
+       height: 250px;
+   }
+   .gallery {
+       grid-template: repeat(2,230px) / repeat(2, 350px);
+       margin: 0px;
+       margin-left: 60px;
+       gap: 5px;
+   }
+   .gallery img {
+       margin-top: 40px;
+       margin-left: 50px;
+       width: 250px;
+       height: 170px;
+   }
+   /*Shop */
+
+   .shop {
+       width: 100%;
+       height: 1150px;
+    
+   }
+   .shop .container {
+       width: 100%;
+       height:auto;
+   }
+   .shop h2 {
+       width: 100%;
+   }
+   .foto img {
+    width: 150px;
+    height: 180px;
+    margin-left:30px;
+}
+   .telefonat {
+    grid-template:repeat(3,350px) / repeat(2,1fr);
+    height:93vh;
+   }
+   .detajet ul {
+    display: flex;
+    flex-direction: column;
+    padding-left:15px;
+    padding-right:10px;
+    margin-top:35px;
+    
+}
+.detajet ul li{
+    padding-top: 6px;
+    font-size:13px;
+}
+/*Contact*/
+   
+.container3 {
+    width: 100%;
+    height:auto;
+    margin-bottom: 20px;
+}
+.rrethnesh {
+    width: 100%;
+}
+
+input {
+    width:320px;
+    height: 35px;
+    font-size: 26px;
+}
+.titulli {
+    margin-right: 20px;
+}
+.titulli h2 {
+    font-size:45px;
+}
+.titulli #teksti{
+    font-size: 18px;
+}
+.info {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+   
+}
+ .info .rrjetet {
+    margin-top:70px;
+    display: grid;
+    grid-template:repeat(1,1fr) / repeat(3,1fr);
+    margin-left:50px;
+
+}
+.info a{
+    font-size:15px;
+}
+.info img {
+    width: 30px;
+    height: 30px;
+}
+.iframe{
+    margin-top:50px;
+}
+iframe {
+    height: 60%;
+    
+}
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 415px) {
+    
+    header{
+        flex-direction: column-reverse;
+        height: 200px;
+    }
+
+    .logo {
+        width: 100%;
+    }
+    .logo img {
+        width: 60%;
+        padding-top: 20px;
+    }
+    nav {
+        width: 100%;
+    }
+    nav ul {
+        width: 100%;
+        justify-content:center;
+        padding-left: 20px;
+    }
+    nav a {
+        font-size:20px;
+       
+    }
+    .ballina {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .sherbimet ul {
+        height: 100%;
+        margin-top:30px;
+    }
+    .sherbimet ul li {
+        margin-left:40px;
+        height:40px;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    .image {
+        justify-content:center;
+        margin-top:30px;
+    }
+    .image img {
+        width: 300px;
+        height:200px;
+    }
+    .gallery {
+        display: none;
+    }
+    /*shop*/
+
+
+    .shop {
+        height: 2400px;
+        
+    }
+    .telefonat {
+        grid-template: repeat(6,1fr)/ repeat(1,1fr);
+    }
+    .foto img {
+        width: 180px;
+        height: 200px;
+    }
+    .detajet ul {
+        padding-top: 7px;
+    }
+    .detajet li {
+        padding-bottom: 5px;
+    }
+
+    /*Contact*/
+
+
+    .Contact {
+        height: auto;
+    }
+    .rrethnesh {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .kontakti input {
+        width:300px;
+        height: 30px;
+        font-size: 22px;
+     }
+     .iframe {
+         height: 100%;
+         margin-top: 20px;
+        
+     }
+     iframe {
+         height:100%;
+         margin-bottom:50px;
+     }
+    }
+
+
+
+
+
+
+
